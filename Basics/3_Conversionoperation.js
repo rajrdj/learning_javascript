@@ -92,20 +92,69 @@ NaN ==> Not a number  result will number
 // let isLoggedIn = Boolean(userLoggeedin)
 // console.log(isLoggedIn, typeof isLoggedIn);   // false  boolean   
 
-let userLoggeedin = 1 //any number  other than zero considered as true in JS
-let isLoggedIn = Boolean(userLoggeedin);
-console.table([userLoggeedin,isLoggedIn, typeof isLoggedIn]);   // true boolean   
+// let userLoggeedin = 1 //any number  other than zero considered as true in JS
+// let isLoggedIn = Boolean(userLoggeedin);
+// console.table([userLoggeedin,isLoggedIn, typeof isLoggedIn]);   // true boolean   
 
 /* 
 1 ==> True
 0 ==> false 
  
-null or Undefined or NaN ==> False
+null or Undefined or N
+// let userLoggeedin = ""
+// let isLoggedIn = Boolean(userLoggeedin)
+// console.log(isLoggedIn, typeof isLoggedIn);   // false  boolean   N ==> False
 Anything else ==> True
 
 */
 
+let someNumber = NaN
+
+console.log(typeof someNumber)
+let isString = String(someNumber)
+
+//console.table( [ isString, typeof someNumber , isString] ) 
+
+console.log(typeof isString)
+
+/* 
+ 0 ==> string 
+ anything else ====>  like name is sting 
+ null ==. object ==>string 
+undefiend ==> undfined ==> sting 
+NaN  ===> Number ==> "NaN"
+
+  
+*/
 
 
+//****************OPERATION************** */
 
+// let value = 3
+// let negValue = -value
+// console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+
+// 1 year ago
+// Return type of variables in JavaScript
+// 1) Primitive Datatypes
+//        Number => number
+//        String  => string
+//        Boolean  => boolean
+//        null  => object
+//        undefined  =>  undefined
+//        Symbol  =>  symbol
+//        BigInt  =>  bigint
+
+// 2) Non-primitive Datatypes
+//        Arrays  =>  object
+//        Function  =>  function
+//        Object  =>  object
 
