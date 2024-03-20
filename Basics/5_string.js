@@ -35,14 +35,14 @@ const  b = "b";
 // }
 
 
-function areEqualCaseInsensitive(str1, str2) {
-    return str1.toUpperCase() === str2.toUpperCase();
-  }
+// function abdul(str1) {
+//     return str1.toLowerCase()
+//   }
   
 
-let user = areEqualCaseInsensitive("g","I");
+// let user = areEqualCaseInsensitive("g","I");
 
-console.log(user);
+// console.log(user);
 
 
 //anchor(): Creates an HTML anchor element.
