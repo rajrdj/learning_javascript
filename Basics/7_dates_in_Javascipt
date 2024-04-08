@@ -1,0 +1,41 @@
+// //dates
+
+// let myDate = new Date()
+
+// console.log(myDate.toString());
+// console.log(myDate.toLocaleString());
+// // console.log(myDate.getTime()) - Returns the time in milliseconds since    1970.                  
+
+// console.log(typeof myDate);
+
+// let myCreatedDAte = new Date("2024-01-24);
+
+
+
+// let myTimestamp = Date.now()
+
+// console.log(myTimestamp);
+
+// let myCreatedDAte = new Date("01-08-2023");
+
+// if (isNaN(myCreatedDAte)) {
+//     console.log('Not a valid date');
+// } else{
+//     console.log(`Valid date: ${myCreatedDAte}`);
+// } 
+
+// function formatDate(date) {
+//     const options = { weekday: 'long', year: 'numeric', month:};
+//     return new Intl.DateTimeFormat('en-US',options).format(date);
+    
+// }   
+let newDate = new Date()
+console.log(newDate.getMonth()+2)
+
+console.log(newDate.toLocaleDateString('default',{
+    weekday:"long",
+    year:"numeric",
+    month:"long",
+    timeZone:'UTC',
+    timeZoneName:'short'
+}));
