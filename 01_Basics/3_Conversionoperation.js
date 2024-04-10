@@ -48,6 +48,11 @@ console.log(typeof(score))
 // let score =NaN
 // console.log(typeof score); //number
 
+function myFunction(a) {
+  console.log(typeof 'a')
+  
+  return a
+} 
 //this will give us 1  because boolean true is equal to 1 in JavaScript
 // in case of false this wail give us 0
 
@@ -108,14 +113,14 @@ Anything else ==> True
 
 */
 
-let someNumber = NaN
+//let someNumber = NaN
 
-console.log(typeof someNumber)
-let isString = String(someNumber)
+// console.log(typeof someNumber)
+// let isString = String(someNumber)
 
 //console.table( [ isString, typeof someNumber , isString] ) 
 
-console.log(typeof isString)
+//console.log(typeof isString)
 
 /* 
  0 ==> string 
@@ -158,3 +163,19 @@ NaN  ===> Number ==> "NaN"
 //        Function  =>  function
 //        Object  =>  object
 
+function createCounter(initialValue) {
+  let count = initialValue;
+  return function counter() {
+    count++;
+    return count;
+  };
+}
+
+const counter1 = createCounter(5);
+console.log(counter1());
+console.log(counter1());
+console.log(counter1());
+
+const counter2 = createCounter(10);
+console.log(counter2());
+console.log(counter2());
