@@ -1,0 +1,151 @@
+html {
+    margin: 0;
+  }
+  
+  span {
+    display: block;
+  }
+  .canvas {
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    display: inline-block;
+  }
+  
+  #white {
+    background: White;
+}
+
+#yellow {
+    background: Yellow;
+}
+
+#blue {
+    background: Blue;
+}
+
+#red {
+    background: Red;
+}
+
+#green {
+    background: Green;
+}
+
+#black {
+    background: Black;
+}
+
+#brown {
+    background: Brown;
+}
+
+#azure {
+    background: Azure;
+}
+
+#ivory {
+    background: Ivory;
+}
+
+#teal {
+    background: Teal;
+}
+
+#silver {
+    background: Silver;
+}
+
+#purple {
+    background: Purple;
+}
+
+#navyblue {
+    background: Navy blue;
+}
+
+#peagreen {
+    background: Pea green;
+}
+
+#gray {
+    background: Gray;
+}
+
+#orange {
+    background: Orange;
+}
+
+#maroon {
+    background: Maroon;
+}
+
+#charcoal {
+    background: Charcoal;
+}
+
+#aquamarine {
+    background: Aquamarine;
+}
+
+#coral {
+    background: Coral;
+}
+
+#fuchsia {
+    background: Fuchsia;
+}
+
+#wheat {
+    background: Wheat;
+}
+
+#lime {
+    background: Lime;
+}
+
+#crimson {
+    background: Crimson;
+}
+
+#khaki {
+    background: Khaki;
+}
+
+#hotpink {
+    background: Hot pink;
+}
+
+#magenta {
+    background: Magenta;
+}
+
+#olden {
+    background: Olden;
+}
+
+#plum {
+    background: Plum;
+}
+
+#olive {
+    background: Olive;
+}
+
+#cyan {
+    background: Cyan;
+}
+#navy {
+    background: Navy;
+}
+
+#silver {
+    background: Silver;
+}
+
