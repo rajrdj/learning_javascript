@@ -1,6 +1,6 @@
 .container {
-    width: 575px;
-    height: 825px;
+    width: flex;
+    height: flex;
   
     background-color: #797978;
     padding-left: 30px;
